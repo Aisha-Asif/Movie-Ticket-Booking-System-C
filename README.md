@@ -1,7 +1,6 @@
 # 🎬 Movie Ticket Booking System  
 
 *A command-line movie ticket reservation system that provides a smooth and efficient booking experience for users, members, and administrators. Developed in C as a first-semester project for BSCS at FAST (Fall 2023), the system simulates real-world functionalities of a cinema's ticketing and membership services using file handling, structures, and modular programming.*  
-[![License](https://img.shields.io/badge/License-Academic-blue.svg)](https://github.com/your-username/movie-ticket-booking)  
 
 ---
 
@@ -42,7 +41,19 @@ Replaces traditional cinema booking inefficiencies with:
 ---
 
 ## ▶️ How to Run  
-1. **Clone the repo**:  
+1. **Clone the repository**:  
    ```bash 
    git clone https://github.com/your-username/movie-ticket-booking.git
    cd movie-ticket-booking
+
+2. **Compile project**: 
+   gcc main.c -o MovieBookingSystem
+
+3. **Run system**: 
+   ./MovieBookingSystem
+
+4. **Use the menu**:
+   Ensure movies.txt, bookings.txt, etc., are in the same directory.
+
+---
+---
